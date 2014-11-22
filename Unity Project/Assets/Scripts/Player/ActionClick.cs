@@ -19,10 +19,12 @@ public class ActionClick : MonoBehaviour {
 				ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
 				if (Physics.Raycast (ray, out hit, 1F)) {
-				print (hit.collider.gameObject.name);
+					if (hit.collider.gameObject.tag == "Clickable") {
 
+				print (hit.collider.gameObject.name);
 				hit.collider.gameObject.SendMessage("Start_Action",1);
 
+				   }
 				}
 				
 		}
