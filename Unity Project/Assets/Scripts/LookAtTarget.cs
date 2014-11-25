@@ -1,25 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Light_Switch : MonoBehaviour {
+public class LookAtTarget : MonoBehaviour {
 
-
-	public Light LinkedLight;
+	private GameObject target ;
 
 	// Use this for initialization
 	void Start () {
-	
+		 
 	}
-
-
+	
 	// Update is called once per frame
 	void Update () {
-	
-	}
 
-	void Start_Action(float damage) {
+		target = GameObject.FindWithTag("Player");
 
-		LinkedLight.enabled = !LinkedLight.enabled;
+
+		transform.LookAt(target.transform);
 
 	}
 }

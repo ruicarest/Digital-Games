@@ -11,7 +11,6 @@ public class Door_Listener : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-	 
 	}
 
 	void Start_Action(float damage) {

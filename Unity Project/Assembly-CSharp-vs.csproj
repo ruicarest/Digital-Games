@@ -46,9 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\LookAtTarget.cs" />
+     <Compile Include="Assets\Scripts\Objects\Display_Text.cs" />
      <Compile Include="Assets\Scripts\Objects\Door_Listener.cs" />
      <Compile Include="Assets\Scripts\Objects\Light_Switch.cs" />
+     <Compile Include="Assets\Scripts\Pause_Game.cs" />
      <Compile Include="Assets\Scripts\Player\ActionClick.cs" />
+     <Compile Include="Assets\Scripts\Player\Flash_Light.cs" />
      <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
      <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
      <Compile Include="Assets\torch\scripts\Torchelight.cs" />

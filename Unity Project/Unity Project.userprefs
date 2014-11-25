@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\ActionClick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Flash_Light.cs">
     <Files>
-      <File FileName="Assets\Scripts\Objects\Light_Switch.cs" Line="20" Column="1" />
-      <File FileName="Assets\Scripts\Objects\Door_Listener.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\ActionClick.cs" Line="22" Column="50" />
+      <File FileName="Assets\Scripts\Enemie\Follow_Player_Zombie.js" Line="60" Column="45" />
+      <File FileName="Assets\Scripts\Player\ActionClick.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\Flash_Light.cs" Line="27" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
