@@ -48,9 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Animation\Player\Melee.js" />
      <Compile Include="Assets\Scripts\Enemie\(test)Walk&amp;Stare.js" />
+     <Compile Include="Assets\Scripts\Enemie\Atack_Player.js" />
      <Compile Include="Assets\Scripts\Enemie\Follow_Player_Zombie.js" />
+     <Compile Include="Assets\Scripts\Enemie\RAW_Follow_Player_Zombie.js" />
      <Compile Include="Assets\Scripts\Objects\Spawn_Object.js" />
      <Compile Include="Assets\Scripts\Player\Go_Full_Screen_Move.js" />
+     <Compile Include="Assets\Scripts\Player\Walking.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

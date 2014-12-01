@@ -53,6 +53,8 @@
      <Compile Include="Assets\Scripts\Pause_Game.cs" />
      <Compile Include="Assets\Scripts\Player\ActionClick.cs" />
      <Compile Include="Assets\Scripts\Player\Flash_Light.cs" />
+     <Compile Include="Assets\Scripts\Player\Player_dying.cs" />
+     <Compile Include="Assets\Scripts\Sound\walking_on_water.cs" />
      <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
      <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
      <Compile Include="Assets\torch\scripts\Torchelight.cs" />
