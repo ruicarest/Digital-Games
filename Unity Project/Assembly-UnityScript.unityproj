@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Objects\Spawn_Object.js" />
      <Compile Include="Assets\Scripts\Player\Go_Full_Screen_Move.js" />
      <Compile Include="Assets\Scripts\Player\Walking.js" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
